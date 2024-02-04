@@ -1,6 +1,6 @@
 {
     "name": "Restic",
-    "version": "0.5",
+    "version": "0.6",
     "slug": "restic",
     "description": "Create back-ups using restic",
     "arch": [
@@ -29,6 +29,17 @@
             "addons/data/52a4f95e_restic/restic-cache"
         ]
     },
-    "schema":false,
-    "full_access":true
+    "schema": {
+        "env_vars": {
+            "AWS_ACCESS_KEY_ID": "str?",
+            "AWS_SECRET_ACCESS_KEY": "str?",
+            "RESTIC_REPOSITORY": "str?",
+            "RESTIC_PASSWORD": "str?"
+        },
+        "exclude_patterns": [
+            "str?"
+        ]
+    },
+    "full_access":true,
+    "init": false
 }

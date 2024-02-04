@@ -1,5 +1,5 @@
 {
-    "name": "HassOS restic add-on",
-    "url": "https://github.com/martenjacobs/hassio-restic",
-    "maintainer": "Marten Jacobs <mail@vanmarten.nl>"
+    "name": "HassOS restic add-on (fork)",
+    "url": "https://github.com/wizardfrag/hassio-restic",
+    "maintainer": "David White <wzf@duck.com>"
 }
